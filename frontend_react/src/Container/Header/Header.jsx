@@ -30,11 +30,12 @@ const Header = () => {
           <span>👋</span>
           <div style={{marginLeft: 20}}>
             <p className='p-text'>Hello, I am</p>
-            <h1 className='head-text'>Vinny</h1>
+            <h1 className='head-text'>Vincent</h1>
           </div>
         </div>
         <div className='tag-cmp app__flex'>
-        <p className='p-text'>Web Developer</p>
+        <p className='p-text'>Student</p>
+        <p className='p-text'>Software Engineer</p>
         <p className='p-text'>Freelancer</p>
         </div>
 
@@ -47,7 +48,7 @@ const Header = () => {
     whileInView={{opacity: [0,1]}}
     transition={{duration: 0.5, delayChildren: 0.5}}
     className="app__header-img">
-<img style={{height: "650px", width:'500px'}}src={images.vinny} alt="profimg"></img>
+{/* <img style={{height: "650px", width:'500px'}}src={images} alt="profimg"></img> */}
 <motion.img
     whileInView={{scale: [0,1]}}
     transition={{duration: 1, ease: 'easeInOut'}}
@@ -65,7 +66,7 @@ const Header = () => {
     whileInView={scaleVariants.whileInView}
     className="app__header-circles">
 
-      {[images.javascript, images.react, images.node].map((circle, index)=>(<div className='circle-cmp app__flex' key={`circle-index`}>
+      {[images.javalogo, images.javascript, images.mysql].map((circle, index)=>(<div className='circle-cmp app__flex' key={`circle-index`}>
     <img src={circle} alt="circle"/>
 
       </div>))}
