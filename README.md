@@ -4,6 +4,9 @@ This is my personal portfolio website built using React JS and Sanity CMS. The w
 
 # Technologies Used
 * React JS
+* HTML
+* SCSS/CSS
+* Node.js
 * Sanity CMS
 # Features
 Home page introducing myself and my skills
